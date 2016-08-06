@@ -1,11 +1,11 @@
 # Site settings
-title: Rifyll
-email: somename@somedomain.com
-description: "Just Another Jekyll Theme"
-logo_location: "https://placeholdit.imgix.net/~text?txtsize=30&bg=F8F8F8&txtclr=002E62&txt=LOGO&w=100&h=100"
+title: Pokenoticias
+email: pokenoticia@gmail.com
+description: "Noticias Pokemon en Español"
+logo_location: "http://www.stivco.com/random/tats/pokeball.gif"
 
-#baseurl: "" # the subpath of your site, e.g. /blog/
-#url: "" # the base hostname & protocol for your site
+baseurl: "/" # the subpath of your site, e.g. /blog/
+url: "https://pokenoticias.github.io" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
