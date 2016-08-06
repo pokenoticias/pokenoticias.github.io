@@ -27,7 +27,7 @@ owner:
 google_analytics: UA-82097056-1
 google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
+bing_verify: <meta name="msvalidate.01" content="A117107454F91BEAC0D114CF2C97C4C8" />
 
 # Links to include in top navigation
 # For external links add external: true
