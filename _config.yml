@@ -1,6 +1,6 @@
 name: Pokenoticias
 highlighter: rouge
-url: https://pokenoticias.github.io/
+url: https://pokenoticias.github.io
 gems: [jekyll-paginate,  jekyll-gist]
 paginate: 8
 description: Noticias Pokémon en Español
@@ -15,7 +15,7 @@ disqus_shortname:
 owner:
   name:           Pokenoticias
   avatar:         http://vignette3.wikia.nocookie.net/youtubepoop/images/4/4c/Pokeball.png/revision/latest?cb=20150418234807
-  email:          pokenoticia@gmail.com
+  email:          pikachu@pokenoticias.es
   # Social networking links used in footer. Update and remove as you like.
   twitter:
   github:
