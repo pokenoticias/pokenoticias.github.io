@@ -3,8 +3,8 @@ highlighter: rouge
 url: https://pokenoticias.github.io/
 gems: [jekyll-paginate,  jekyll-gist]
 paginate: 8
-description: Noticias Pokemon en Español
-intro: Pokenoticias. Noticias Pokémon en Español.
+description: Noticias Pokémon en Español
+intro: Pokenoticias. Todo sobre Pokémon Go.
 logo: http://vignette3.wikia.nocookie.net/youtubepoop/images/4/4c/Pokeball.png/revision/latest?cb=20150418234807
 disqus_shortname:
 # url: http://gotchacode.com
