@@ -5,4 +5,4 @@ layout: default
 
 Pokenoticias nace con el objetivo de recopilar y simplificar toda la información relacionada con Pokémon Go.
 
-Contáctanos en pikachu@pokenoticias.es
+Contáctanos en [pikachu@pokenoticias.es](pikachu@pokenoticias.es)
