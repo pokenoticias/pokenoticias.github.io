@@ -1,0 +1,31 @@
+---
+layout: default
+title: Noticias Pokémon en Español
+---
+
+<div class="listing">
+    {% for post in paginator.posts %}
+    <div class="post other link">
+      <h2><span class="mega-octicon octicon-octoface" style="min-width: 32px;"></span><a href="{{post.url}}">{{ post.title }}</a></h2>
+      <p class="post-date">{% assign m = post.date | date: "%-m" %}
+        {{ post.date | date: "%-d" }}
+        {% case m %}
+          {% when '1' %}Enero
+          {% when '2' %}Febrero
+          {% when '3' %}Marzo
+          {% when '4' %}Abril
+          {% when '5' %}Mayo
+          {% when '6' %}Junio
+          {% when '7' %}Julio
+          {% when '8' %}Agosto
+          {% when '9' %}Septiembre
+          {% when '10' %}Octubre
+          {% when '11' %}Noviembre
+          {% when '12' %}Diciembre
+        {% endcase %}
+      {{ post.date | date: "%Y" }}</p>
+
+      <p>{{ post.excerpt }}</p>
+    </div>
+    {% endfor %}
+</div>
