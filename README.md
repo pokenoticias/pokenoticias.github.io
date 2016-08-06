@@ -1,20 +1,24 @@
-# README #
+White Paper
+============
 
-A simple blog template for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>.
+White Paper is a jekyll theme for tech blogs. It is clean and simple with good semantic
+structure.
 
-Uses:
-* Twitter Bootstrap 3.2.0
-* Font Awesome 4.2.0
+![white-paper image](https://i.cloudup.com/rmZjQ83vRh-2000x2000.png)
 
+## Usage:
 
-Here is a <a href="http://itsrifat.github.io/rifyll/" target="_blank">Demo</a>
+- Install Jekyll from here(http://jekyllrb.com/)
+- Fork the project.
+- Change the fields in _config.yml.
+- Change the links in header.html.
 
-To get started:
-* Fork this repo
-* Edit [_config.yml](_config.yml):
-  * Change logo_location
-* Edit [_data/menu.yml](_data/menu.yml) to edit menu
-* Edit [_data/personal.yml](_data/personal.yml) to edit persnoal info to show in about me page.
+Test the website live while editing the code:
 
-To create a post:
-* Create a **.md** or **.markdown** file in the _post directory. Add a thumbnail image for the post in the yml front matter, its shown as the post thumbnail in the homepage
+```sh
+jekyll server --watch
+```
+
+## Issues:
+
+Report issues or feature request [here](https://github.com/vinitkumar/white-paper/issues).

@@ -1,23 +1,33 @@
-# Site settings
-title: Pokenoticias
-email: pokenoticia@gmail.com
-description: "Noticias Pokemon en Español"
-logo_location: "http://www.stivco.com/random/tats/pokeball.gif"
+name: Pokenoticias
+highlighter: true
+url: http://pokenoticias.es
+gems: [jekyll-paginate,  jekyll-gist]
+paginate: 8
+description: Noticias Pokemon en Español
+intro: Pokenoticias. Noticias Pokémon en Español.
+logo: http://vignette3.wikia.nocookie.net/youtubepoop/images/4/4c/Pokeball.png/revision/latest?cb=20150418234807
+disqus_shortname:
+# url: http://gotchacode.com
+#Comment out url when working locally to resolve base urls correctly
+#url:
 
-baseurl: "/" # the subpath of your site, e.g. /blog/
-url: "https://pokenoticias.github.io" # the base hostname & protocol for your site
+# Owner/author information
+owner:
+  name:           Pokenoticias
+  avatar:         http://vignette3.wikia.nocookie.net/youtubepoop/images/4/4c/Pokeball.png/revision/latest?cb=20150418234807
+  email:          pokenoticia@gmail.com
+  # Social networking links used in footer. Update and remove as you like.
+  twitter:
+  github:
+  stackexchange:
+  # For Google Authorship https://plus.google.com/authorship
+  google_plus:
 
-# Build settings
-markdown: kramdown
-kramdown:
-  input: GFM
+# Analytics and webmaster tools stuff goes here
+google_analytics:
+google_verify:
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
 
-highlighter: pygments
-
-#Other Global Configuration
-exclude: ['README.md']
-
-excerpt_separator: <!--more-->
-
-#show the jumbotron header on index page
-show_blog_header: true
+# Links to include in top navigation
+# For external links add external: true
