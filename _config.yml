@@ -1,6 +1,6 @@
 name: Pokenoticias
 highlighter: true
-url: http://pokenoticias.es
+url: https://pokenoticias.github.io/
 gems: [jekyll-paginate,  jekyll-gist]
 paginate: 8
 description: Noticias Pokemon en Español
