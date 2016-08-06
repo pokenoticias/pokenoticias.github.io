@@ -1,5 +1,5 @@
 name: Pokenoticias
-highlighter: true
+highlighter: rouge
 url: https://pokenoticias.github.io/
 gems: [jekyll-paginate,  jekyll-gist]
 paginate: 8
